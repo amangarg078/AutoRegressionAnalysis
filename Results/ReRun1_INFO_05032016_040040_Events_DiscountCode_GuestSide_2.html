@@ -1,0 +1,1165 @@
+<html>
+<header>
+<title>//cvent.net\datax\hq\QTP\SeleniumSuites\Release\Events_DiscountCode_GuestSide_2.xlsx</title>
+
+<Style type='text/css' >table { margin: 1em; border-collapse: collapse; }td, th { padding: .3em; border: 1px #ccc solid; }thead { background: #fc9; }tr.fatal {color: red; width: 10% }tr.error {color: red; width: 10% }tr.warn {color: darkgoldenrod; width: 10% }tr.info {color: blue; width: 10% }tr.debug {color: blueviolet; width: 10% }tr.trace {color: #999900; width: 10% }tr.fail {color: darkred; width: 10% }tr.pass {color: darkgreen; width: 10% }</Style>
+</header>
+
+<body>
+<H1>Events_DiscountCode_GuestSide_2</H1>
+<table>
+<thead><tr>
+<th>05/03/16 03:49:35</th><th><H3>Test Suite: //cvent.net\datax\hq\QTP\SeleniumSuites\Release\Events_DiscountCode_GuestSide_2.xlsx<br/>Execution ID: 64517</H3></th>
+</tr></thead>
+<thead><tr>
+<th>05/03/16 03:49:35</th><th><H2>EVT_DC_InviteeGuest_Non_Stackable_Discount</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>05/03/16 03:49:35</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:41</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:42</td><td>Step-2: Enter Account name : CVTAUTOMAT</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:43</td><td>Step-3: Enter Username : cvtautomation</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:44</td><td>Step-4: Enter Password : automation123</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:44</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:51</td><td>Step-6: Get the Event stub from the url and store it to global variable called EVENTSTUB:select top 1 evt_stub from event nolock where acct_id = 5879 and evt_title like 'EVT_DiscountCode_Selenium_%' and evt_status_id= '2' order by created_date desc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:51</td><td>Step-7: Navigate to the overview of the Event, Stub : A918168F-2810-4473-AECA-4E05DA33F964URL: https://silo132-app.a1.cvent.com/Subscribers/Events2/Overview/Overview/Index/View?evtstub=A918168F-2810-4473-AECA-4E05DA33F964</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:55</td><td>Step-8: Hover mouse over Promotion & Communication</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:58</td><td>Step-9: click on Weblink</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:49:58</td><td>Step-10: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:00</td><td>Step-11: Storing the guest side registration link in a variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:02</td><td>Step-12: Launch guest side URL : http://silo132-guest.a1.cvent.com/d/fdqrf0/4W</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:07</td><td>Step-13: get a random string to be used for email address</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:07</td><td>Step-14: get a random string to be used for first name and last name </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:07</td><td>Step-15: Enter Fname_Invitee_pBqxgc  in First name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:09</td><td>Step-16: Enter Lname_Invitee_pBqxgc inlast name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:10</td><td>Step-17: Enter Invitee@kxdam.comx as email address</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:10</td><td>Step-18: Click next button on ID Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:13</td><td>Step-19: Click next button on reg Info Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:15</td><td>Step-20: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:16</td><td>Step-21: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:16</td><td>Step-22: Enter 1 as quantity</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:17</td><td>Step-23: click next button on Item Selection page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:19</td><td>Step-24: click on Add Guest link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:22</td><td>Step-25: Enter first name as Guest_fname_pBqxgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:22</td><td>Step-26: Enter last name as Guest_lname_pBqxgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:22</td><td>Step-27: Enter email address as Guest@kxdam.comx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:23</td><td>Step-28: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:25</td><td>Step-29: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:26</td><td>Step-30: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:26</td><td>Step-31: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:29</td><td>Step-32: click on Add Another Guest link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:31</td><td>Step-33: Enter first name as Guest2_fname_pBqxgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:31</td><td>Step-34: Enter last name as Guest2_lname_pBqxgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:32</td><td>Step-35: Enter email address as Guesttwo@kxdam.comx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:32</td><td>Step-36: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:35</td><td>Step-37: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:35</td><td>Step-38: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:35</td><td>Step-39: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:38</td><td>Step-40: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:40</td><td>Step-41: click on 'Add Person' link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:43</td><td>Step-42: Enter first name as sec_Invitee_pBqxgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:43</td><td>Step-43: Enter last name as Sec_lastname _pBqxgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:44</td><td>Step-44: Enter email as secInvitee_kxdam@l.mail</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:44</td><td>Step-45: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:45</td><td>Step-46: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:48</td><td>Step-47: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:50</td><td>Step-48: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:50</td><td>Step-49: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:51</td><td>Step-50: Enter 1 as quantity</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:51</td><td>Step-51: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:53</td><td>Step-52: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:56</td><td>Step-53: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:50:59</td><td>Step-54: Enter 'InviteeAndGuest25' in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:00</td><td>Step-55: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:02</td><td>Step-56: wait for 2 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:03</td><td>Step-57: select first option</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:04</td><td>Step-58: select second option</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:04</td><td>Step-59: select third option</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:04</td><td>Step-60: select fourth option </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:05</td><td>Step-61: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:07</td><td>Step-62: wait for 35 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-63: verify that total amount is $1,730.00</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:09</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 173000<BR>Actual Value: 173000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-64: Get the reg cart stub and store it in variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-65: Execute : 
+select sum(dscnt_amt) as amt from REG_CART_PRODUCT_DISCOUNT where reg_cart_stub='d3f419bf-ea65-4a48-b271-5b8a1ea7c20b'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-66: if value comes out to 75.00 then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:09</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7500<BR>Actual Value: 7500</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-67: Execute below query:
+select SUM(price_tier_amt) as tieramt  from REG_CART_PRODUCT where reg_cart_stub='d3f419bf-ea65-4a48-b271-5b8a1ea7c20b'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-68: if value comes out to be 1290.0000  then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:09</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 12900000<BR>Actual Value: 12900000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:09</td><td>Step-69: Enter 'NonStackableInvAndGuest25'  in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:10</td><td>Step-70: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:12</td><td>Step-71: NonStackableInvAndGuest25' is non stackable hence we should not be able to apply this discount once atleast one discount code has already been assigned and hence "The Discount Code you have entered cannot be used with another discount code and another discount code has already been applied to this registration." error message  should be generated 
+</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:12</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: TheDiscountCodeyouhaveenteredcannotbeusedwithanotherdiscountcodeandanotherdiscountcodehasalreadybeenappliedtothisregistration<BR>Actual Value: TheDiscountCodeyouhaveenteredcannotbeusedwithanotherdiscountcodeandanotherdiscountcodehasalreadybeenappliedtothisregistration</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:12</td><td>Step-72: click on 'Remove' link next to 'InviteeAndGuest25' discount code</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:15</td><td>Step-73: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:16</td><td>Step-74: verify that total amount is $1,830.00</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:16</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 183000<BR>Actual Value: 183000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:16</td><td>Step-75: now click on 'Apply' button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:18</td><td>Step-76: We should not get error message as we have removed already applied discount </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:29</td><td><H4 CLASS='pass'>PASS</H4>lblErrorMsgDiscount<BR> object is not present.</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:29</td><td>Step-77: select first option</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:29</td><td>Step-78: select second option</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:30</td><td>Step-79: select third option</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:30</td><td>Step-80: select fourth option </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:30</td><td>Step-81: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:33</td><td>Step-82: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:34</td><td>Step-83: verify that total amount is $1,730.00 after discount has been applied </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:51:34</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 173000<BR>Actual Value: 173000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:34</td><td>Step-84: Click finish Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:47</td><td>Step-85: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:48</td><td>Step-86: click on 'My Registration' link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:51:53</td><td>Step-87: close all the opened browser</td>
+</tr>
+<thead><tr>
+<th>05/03/16 03:51:56</th><th><H2>EVT_DC_InviteeGuest_FlatPrice_Sessions</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>05/03/16 03:51:57</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:01</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:01</td><td>Step-2: Enter Account name : CVTAUTOMAT</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:03</td><td>Step-3: Enter Username : cvtautomation</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:03</td><td>Step-4: Enter Password : automation123</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:04</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:09</td><td>Step-6: Get the Event stub from the url and store it to global variable called EVENTSTUB:select top 1 evt_stub from event nolock where acct_id = 5879 and evt_title like 'EVT_DiscountCode_Selenium_%' and evt_status_id= '2' order by created_date desc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:09</td><td>Step-7: Navigate to the overview of the Event, Stub : A918168F-2810-4473-AECA-4E05DA33F964URL: https://silo132-app.a1.cvent.com/Subscribers/Events2/Overview/Overview/Index/View?evtstub=A918168F-2810-4473-AECA-4E05DA33F964</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:11</td><td>Step-8: Hover mouse over Promotion & Communication</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:14</td><td>Step-9: click on Weblink</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:15</td><td>Step-10: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:16</td><td>Step-11: Storing the guest side registration link in a variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:17</td><td>Step-12: Launch guest side URL : http://silo132-guest.a1.cvent.com/d/fdqrf0/4W</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:26</td><td>Step-13: get a random string to be used for email address</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:26</td><td>Step-14: Enter Pradeep8 in First name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:28</td><td>Step-15: Enter Raj8 in Last Name </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:28</td><td>Step-16: Enter Raj8@kFMvw.comx as last name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:29</td><td>Step-17: Click next button on ID Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:31</td><td>Step-18: select first option from MultiChoice custom field</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:32</td><td>Step-19: Click next button on reg info Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:34</td><td>Step-20: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:35</td><td>Step-21: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:35</td><td>Step-22: Enter 1 as quantity</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:36</td><td>Step-23: click next button on Item Selection page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:38</td><td>Step-24: click on Add Guest link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:40</td><td>Step-25: Enter first name as G8</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:41</td><td>Step-26: Enter last name as Guest8</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:41</td><td>Step-27: Enter email address as Guest8@lastname.comx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:41</td><td>Step-28: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:44</td><td>Step-29: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:44</td><td>Step-30: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:45</td><td>Step-31: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:47</td><td>Step-32: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:50</td><td>Step-33: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:52</td><td>Step-34: Enter 'FlatPrice50' in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:52</td><td>Step-35: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:55</td><td>Step-36: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:56</td><td>Step-37: Enter 'FlatPrice50' in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:56</td><td>Step-38: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-39: verify the error message as 
+'The Discount Code you have entered has already been applied to this registration.'</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:52:59</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: TheDiscountCodeyouhaveenteredhasalreadybeenappliedtothisregistration<BR>Actual Value: TheDiscountCodeyouhaveenteredhasalreadybeenappliedtothisregistration</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-40: verify that total amount is $615.00</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:52:59</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 61500<BR>Actual Value: 61500</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-41: Get the reg cart stub and store it in variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-42: Execute : 
+select sum(dscnt_amt) as amt from REG_CART_PRODUCT_DISCOUNT where reg_cart_stub='a0fbfc06-1075-4e04-8c85-d53498f0a2e4'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-43: if value comes out to 300 then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:52:59</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 30000<BR>Actual Value: 30000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-44: Execute below query:
+select SUM(price_tier_amt) as tieramt  from REG_CART_PRODUCT where reg_cart_stub='a0fbfc06-1075-4e04-8c85-d53498f0a2e4'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-45: if value comes out to be 615.0000  then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:52:59</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 6150000<BR>Actual Value: 6150000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:52:59</td><td>Step-46: Enter 'InviteeAndGuest25' in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:00</td><td>Step-47: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:02</td><td>Step-48: Discount of type 'Charge a fixed price' are non stackable hence we should get  "The Discount Code you have entered cannot be used with another discount code and another discount code has already been applied to this registration." error message  
+</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:53:02</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: TheDiscountCodeyouhaveenteredcannotbeusedwithanotherdiscountcodeandanotherdiscountcodehasalreadybeenappliedtothisregistration<BR>Actual Value: TheDiscountCodeyouhaveenteredcannotbeusedwithanotherdiscountcodeandanotherdiscountcodehasalreadybeenappliedtothisregistration</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:02</td><td>Step-49: click on Cancel button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:15</td><td>Step-50: wait for 5 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:20</td><td>Step-51: close all the opened browser</td>
+</tr>
+<thead><tr>
+<th>05/03/16 03:53:22</th><th><H2>EVT_DC_GuestNumbers_FinalAmount</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>05/03/16 03:53:22</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:26</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:27</td><td>Step-2: Enter Account name : CVTAUTOMAT</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:28</td><td>Step-3: Enter Username : cvtautomation</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:29</td><td>Step-4: Enter Password : automation123</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:29</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:34</td><td>Step-6: Get the Event stub from the url and store it to global variable called EVENTSTUB:
+select top 1 evt_stub from event nolock where acct_id =5879
+ and evt_title like 'EVT_Discount_Code_GuestSetting%' and evt_status_id= '2' order by created_date desc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:34</td><td>Step-7: Navigate to the overview of the Event, Stub : 3902448B-4FCC-4670-8A74-A0116B2DF7E2URL: https://silo132-app.a1.cvent.com/Subscribers/Events2/Overview/Overview/Index/View?evtstub=3902448B-4FCC-4670-8A74-A0116B2DF7E2</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:37</td><td>Step-8: Hover mouse over Promotion & Communication</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:40</td><td>Step-9: click on Weblink</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:40</td><td>Step-10: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:41</td><td>Step-11: Storing the guest side registration link in a variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:42</td><td>Step-12: Launch guest side URL : http://silo132-guest.a1.cvent.com/d/kdqrft/4W</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:50</td><td>Step-13: get a random string to be used for email address</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:50</td><td>Step-14: Enter Pradeep9 in First name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:52</td><td>Step-15: Enter Raj9 in Last Name </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:52</td><td>Step-16: Enter Raj9@mRCQo.comx as last name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:53</td><td>Step-17: Click next button on ID Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:55</td><td>Step-18: select 2 as no of guest </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:56</td><td>Step-19: Click next button on Reg info page </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:59</td><td>Step-20: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:53:59</td><td>Step-21: Click next button on Item Selection Page </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:02</td><td>Step-22: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:02</td><td>Step-23: Click next button on Item Selection Page </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:04</td><td>Step-24: Select 'CSN TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:05</td><td>Step-25: Click next button on Item Selection Page </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:07</td><td>Step-26: Click on Finished Adding People </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:10</td><td>Step-27: Enter 'GN100' in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:10</td><td>Step-28: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:12</td><td>Step-29: verify that total amount is $950.00</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:54:13</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 95000<BR>Actual Value: 95000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:13</td><td>Step-30: Get the reg cart stub and store it in variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:13</td><td>Step-31: Execute : 
+select sum(dscnt_amt) as amt from REG_CART_PRODUCT_DISCOUNT where reg_cart_stub='28f96bd7-465d-40d5-84fe-15930a6290da'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:13</td><td>Step-32: if value comes out to 400 then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:54:13</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 40000<BR>Actual Value: 40000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:13</td><td>Step-33: Execute below query:
+select SUM(price_tier_amt) as tieramt  from REG_CART_PRODUCT where reg_cart_stub='28f96bd7-465d-40d5-84fe-15930a6290da'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:13</td><td>Step-34: if value comes out to be 950.0000  then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:54:13</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 9500000<BR>Actual Value: 9500000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:13</td><td>Step-35: Click finish Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:26</td><td>Step-36: wait for 120 seconds </td>
+</tr>
+<thead><tr>
+<th>05/03/16 03:54:27</th><th><H2>EVT_DC_ModifyReg_ApplyDCTwice</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>05/03/16 03:54:27</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:27</td><td>Step-1: click on Modify link </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:34</td><td>Step-2: click on 'Registration' link for primary registrant </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:36</td><td>Step-3: Select 'SURVEY TRAINING' session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:37</td><td>Step-4: Click next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:39</td><td>Step-5: Click next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:42</td><td>Step-6: Click next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:48</td><td>Step-7: Enter 'GN100' in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:48</td><td>Step-8: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:51</td><td>Step-9: verify the error message as 
+'The Discount Code you have entered is not applicable with your selection .'</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:54:51</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: TheDiscountCodeyouhaveenteredisnotapplicablewithyourselection<BR>Actual Value: TheDiscountCodeyouhaveenteredisnotapplicablewithyourselection</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:51</td><td>Step-10: Get the reg cart stub and store it in variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:51</td><td>Step-11: Execute below query:
+select SUM(price_tier_amt) as tieramt  from REG_CART_PRODUCT where reg_cart_stub='5436d22d-0ae4-4693-8f66-1095fc19f123'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:51</td><td>Step-12: if value comes out to be 300.0000  then pass else fail </td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:54:51</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 3000000<BR>Actual Value: 3000000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:54:51</td><td>Step-13: Click finish Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:05</td><td>Step-14: Click finish Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:19</td><td>Step-15: close all the opened browser</td>
+</tr>
+<thead><tr>
+<th>05/03/16 03:55:21</th><th><H2>EVT_Discountcode_Import</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>05/03/16 03:55:21</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:25</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:26</td><td>Step-2: Enter Account name : CVTAUTOMAT</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:27</td><td>Step-3: Enter Username : cvtautomation</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:27</td><td>Step-4: Enter Password : automation123</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:27</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:33</td><td>Step-6: Navigate to event creation page:
+https://silo132-app.a1.cvent.com/subscribers/events2/EventWizard?origin=EventSelection</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:35</td><td>Step-7: Select 'A new event' radio button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:36</td><td>Step-8: Click on Select option for Standard Registration</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:39</td><td>Step-9: get Random value for event title</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:39</td><td>Step-10: Set event Title : Sel_Event_For_Discount_Import_dRQvdHbxusdg</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:40</td><td>Step-11: select Celebration in category</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:40</td><td>Step-12: enter the planner first name Pradeep</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:41</td><td>Step-13: enter planner last name Raj</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:41</td><td>Step-14: Click Next button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:49</td><td>Step-15: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:50</td><td>Step-16: Check ON Admission Items</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:51</td><td>Step-17: Check ON Sessions</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:51</td><td>Step-18: Check ON Session Groups</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:52</td><td>Step-19: Check ON Tracks</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:52</td><td>Step-20: Check ON Optional Items</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:53</td><td>Step-21: Check ON Fees</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:53</td><td>Step-22: Check ON Service Fees</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:54</td><td>Step-23: Check ON Discounts</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:54</td><td>Step-24: Click Next button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:59</td><td>Step-25: Check ON Registration Type</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:55:59</td><td>Step-26: Check ON Guest Registration</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:00</td><td>Step-27: Click Next button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:04</td><td>Step-28: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:05</td><td>Step-29: Click Finish</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:09</td><td>Step-30: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:10</td><td>Step-31: Verify the Event tab existence</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:56:13</td><td><H4 CLASS='pass'>PASS</H4>lnkEvents<BR> object is present.</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:13</td><td>Step-32: Query the database for the Event Record using title store them in a results variable called  EVENTDATA
+SQL: 
+select evt_title , evt_stub from event where  evt_title='Sel_Event_For_Discount_Import_dRQvdHbxusdg' and acct_id=5879</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:13</td><td>Step-33: verify that event was created, by selecting evt_title - Sel_Event_For_Discount_Import_dRQvdHbxusdg</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:56:13</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: seleventfordiscountimportdrqvdhbxusdg<BR>Actual Value: seleventfordiscountimportdrqvdhbxusdg</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:13</td><td>Step-34: Navigate to session page:
+https://silo132-app.a1.cvent.com/subscribers/events2/AgendaAndFees/SessionDetails/Index/Add?evtstub=BFA6D68B-F2D9-49C7-AE27-1136ABE39D45</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:17</td><td>Step-35: Enter the session name :Session</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:17</td><td>Step-36: Enter code as : Session </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:18</td><td>Step-37: Get the SESSIONNAME as Output </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:18</td><td>Step-38: Select the radio button for Simple Fee</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:19</td><td>Step-39: get a random 10 characters string as FEE Name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:19</td><td>Step-40: Enter the fee name : Fee_AdsPcpNXRn</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:19</td><td>Step-41: Get the Fee Name as Output</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:20</td><td>Step-42: Enter the fee amount as 100</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:20</td><td>Step-43: click on the Finish button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:29</td><td>Step-44: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:30</td><td>Step-45: Click on the Event Details link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:33</td><td>Step-46: Click on the Admission Items link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:35</td><td>Step-47: Click on the Create Admission Item Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:39</td><td>Step-48: Enter the Admission Item Name : AdmItem</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:40</td><td>Step-49: Output the Admission Item Name in a Var : ADMISSIONITEMNAME</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:40</td><td>Step-50: Select the radio button for Simple Fee</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:40</td><td>Step-51: get a random 10 characters string as FEE Name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:41</td><td>Step-52: Enter the fee name : Fee_njPhHzdrtP</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:41</td><td>Step-53: Get the Fee Name as Output</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:41</td><td>Step-54: Enter the fee amount as 100</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:42</td><td>Step-55: click on the Finish button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:48</td><td>Step-56: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:49</td><td>Step-57: Click on the Event Details link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:51</td><td>Step-58: Click on the Tracks link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:56:53</td><td>Step-59: Click on the Create Track Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:00</td><td>Step-60: Enter the Track Name : Track</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:00</td><td>Step-61: Output the Track Name in a Var : TRACKNAME</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:01</td><td>Step-62: Select the radio button for Simple Fee</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:01</td><td>Step-63: get a random 10 characters string as FEE Name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:01</td><td>Step-64: Enter the fee name : Fee_btIMhBEEgc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:02</td><td>Step-65: Get the Fee Name as Output</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:02</td><td>Step-66: Enter the fee amount as 100</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:02</td><td>Step-67: click on the Finish button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:08</td><td>Step-68: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:09</td><td>Step-69: Click on the Event Details link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:12</td><td>Step-70: click on the Optional Items link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:14</td><td>Step-71: Click on the Create Optional Item Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:20</td><td>Step-72: Slect the radio button : Quantity Item</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:21</td><td>Step-73: click on the next button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:25</td><td>Step-74: Enter the Quantity Item Name : QUANT</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:25</td><td>Step-75: Select the radio button for Simple Fee</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:26</td><td>Step-76: get a random 10 characters string as FEE Name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:26</td><td>Step-77: Enter the fee name : Fee_spRDRsLPAL</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:26</td><td>Step-78: Get the Fee Name as Output</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:27</td><td>Step-79: Enter the fee amount as 100</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:27</td><td>Step-80: click on the Finish button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:33</td><td>Step-81: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:34</td><td>Step-82: click on Website and Registration</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:37</td><td>Step-83: click on Registration Settings</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:37</td><td>Step-84: wait for 10 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:47</td><td>Step-85: click on Guest tab </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:57:48</td><td>Step-86: click on 'Edit' button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:01</td><td>Step-87: select "On a separate page after item and agenda selection" for Invitee will add guests: label</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:02</td><td>Step-88: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:04</td><td>Step-89: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:06</td><td>Step-90: Click on the Event Details link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:08</td><td>Step-91: click on Event Status</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:10</td><td>Step-92: click on Launch event button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:13</td><td>Step-93: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:14</td><td>Step-94: Click on Confirm Launch</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:16</td><td>Step-95: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:46</td><td>Step-96: get the Event stub from the url and store it to global variable called EVENTSTUB</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:46</td><td>Step-97: Query the database using the EventStub and get the event status store them in a results variable called  EVENTDATA
+
+select evt_status_id from event where evt_stub ='bfa6d68b-f2d9-49c7-ae27-1136abe39d45'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:46</td><td>Step-98: verify Event status id as 2</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:58:46</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 2<BR>Actual Value: 2</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:46</td><td>Step-99: Click on the Event Details link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:49</td><td>Step-100: click on Discount link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:49</td><td>Step-101: click on 'Import' button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:54</td><td>Step-102: Import the file present at :
+C:\Eclipse\data\EventDiscountImportFile.txt</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:54</td><td>Step-103: click on Next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:58:58</td><td>Step-104: click on Next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:09</td><td>Step-105: Get the import Id stub and store in IMPORTSTUB </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:09</td><td>Step-106: click On Finish Button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:27</td><td>Step-107: Query the database to get the import status:
+Select import_queue_status_id from Import_Audit (nolock) where import_audit_stub='bebf5b60-6fa8-49f0-86ea-2b5d5ae19452' and entity_stub='bfa6d68b-f2d9-49c7-ae27-1136abe39d45' and import_type_id=35 order by created_date desc</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:27</td><td>Step-108: Status should be 2 which specifies that import was successful</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 03:59:27</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 2<BR>Actual Value: 2</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:27</td><td>Step-109: Hover mouse over Promotion & Communication</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:29</td><td>Step-110: click on Weblink</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:30</td><td>Step-111: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:31</td><td>Step-112: Storing the guest side registration link in a variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:31</td><td>Step-113: Launch guest side URL : http://silo132-guest.a1.cvent.com/d/6dqvnl/4W</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:36</td><td>Step-114: get a random string to be used for email address</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:36</td><td>Step-115: get a random string to be used for name </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:36</td><td>Step-116: Enter J_FKvLm  First name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:38</td><td>Step-117: Enter M_FKvLm  in Last Name</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:38</td><td>Step-118: Enter JM_FKvLm@dcrjx.comx as email address</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:38</td><td>Step-119: Click next button on ID Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:41</td><td>Step-120: Click next button on Reg Info Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:43</td><td>Step-121: select 'AdmItem' as Admission Item </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:43</td><td>Step-122: Select Track </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:44</td><td>Step-123: Click next button on ID Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:46</td><td>Step-124: select session </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:46</td><td>Step-125: Enter 1 as quantity</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:47</td><td>Step-126: click next button on Item Selection page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:49</td><td>Step-127: click on Add Guest link</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:53</td><td>Step-128: Enter first name as G2</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:53</td><td>Step-129: Enter last name as RajendranGuest , this act as conditional filter for application of discount</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:53</td><td>Step-130: Enter email address as guest2@dcrjx.comx</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:53</td><td>Step-131: Click Next Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:56</td><td>Step-132: select 'AdmItem' as Admission Item </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:56</td><td>Step-133: Select Track </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:56</td><td>Step-134: Click next button on ID Page</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:58</td><td>Step-135: select session </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 03:59:59</td><td>Step-136: click next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:01</td><td>Step-137: click next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:03</td><td>Step-138: click next button </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:09</td><td>Step-139: Enter  'Import'  in discount code text box</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:14</td><td>Step-140: click on Apply button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:16</td><td>Step-141: Get the reg cart stub and store it in variable</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:16</td><td>Step-142: Get the discount value : select dscnt_value from REG_CART_DISCOUNT where reg_cart_stub='d7d73983-9e99-45d5-a012-6e6706064045'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:16</td><td>Step-143: Discount value should be 10</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 04:00:16</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1000<BR>Actual Value: 1000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:16</td><td>Step-144: Get the discount amount:select sum (dscnt_amt) as amt from REG_CART_PRODUCT_DISCOUNT where reg_cart_stub='d7d73983-9e99-45d5-a012-6e6706064045'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:16</td><td>Step-145: Discount amount should be 9</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 04:00:16</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7000<BR>Actual Value: 7000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:16</td><td>Step-146: Get the total amount after applying discount select SUM(price_tier_amt) as Total from REG_CART_PRODUCT where reg_cart_stub='d7d73983-9e99-45d5-a012-6e6706064045'</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:17</td><td>Step-147: If value comes out to be 630 then pass else fail</td>
+</tr>
+<tr class='pass'>
+<td>05/03/16 04:00:17</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 6300000<BR>Actual Value: 6300000</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:17</td><td>Step-148: Click finish Button</td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:30</td><td>Step-149: wait for 30 seconds </td>
+</tr>
+<tr class='info'>
+<td>05/03/16 04:00:31</td><td>Step-150: click on 'My Registration' link</td>
+</tr>
+<tr class='error'>
+<td>05/03/16 04:00:38</td><td><span style='float:left;'>Test Case Failed: cannot forward the request Software caused connection abort: recv failed
+Command duration or timeout: 4.53 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HQ-GRID-006', ip: '10.10.1.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ba56a61e-1fde-436d-aead-9cfde186e282, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba56a61e-1fde-436d-aead-9cfde186e282</span><span style='float:right;padding-left:10px;'><a href = 'file:///'>Screenshot:<br><img src='file:///'width = '100' border='1'></a></span></td>
+</tr>
+</table>
+</body>
+</html>

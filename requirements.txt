@@ -1,0 +1,4 @@
+openpyxl == 2.3.5
+beautifulsoup4 == 4.4.1
+cv2 == 1.0
+numpy == 1.11.0

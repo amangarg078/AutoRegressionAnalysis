@@ -1,0 +1,1004 @@
+<html>
+<header>
+<title>//cvent.net\datax\hq\QTP\SeleniumSuites\Release\SMM_Event_VariableCost_Budget_ItemCreation.xlsx</title>
+
+<Style type='text/css' >table { margin: 1em; border-collapse: collapse; }td, th { padding: .3em; border: 1px #ccc solid; }thead { background: #fc9; }tr.fatal {color: red; width: 10% }tr.error {color: red; width: 10% }tr.warn {color: darkgoldenrod; width: 10% }tr.info {color: blue; width: 10% }tr.debug {color: blueviolet; width: 10% }tr.trace {color: #999900; width: 10% }tr.fail {color: darkred; width: 10% }tr.pass {color: darkgreen; width: 10% }</Style>
+</header>
+
+<body>
+<H1>SMM_Event_VariableCost_Budget_ItemCreation</H1>
+<table>
+<thead><tr>
+<th>03/23/16 06:51:56</th><th><H3>Test Suite: //cvent.net\datax\hq\QTP\SeleniumSuites\Release\SMM_Event_VariableCost_Budget_ItemCreation.xlsx<br/>Execution ID: 62125</H3></th>
+</tr></thead> 
+ 
+<thead><tr>
+<th>03/23/16 06:51:56</th><th><H2>SMM_Create_Event_Budget_DS</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 06:51:56</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:01</td><td>Step-1: Navigate : https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:02</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:03</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:03</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:04</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:10</td><td>Step-6: Navigate to the URL:
+https://silo132-app.a1.cvent.com/subscribers/events2/EventWizard?origin=EventSelection</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:14</td><td>Step-7: Get Random value for post fix to event title</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:14</td><td>Step-8: Select 'A new event' radio button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:16</td><td>Step-9: Click on Select option for Standard Registration</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:19</td><td>Step-10: Set event Title as :SMM_Automated_Event_VC_BudgetItem_HyzgPuTa</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:21</td><td>Step-11: Select Celebration in category</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:22</td><td>Step-12: Get Random value for first name</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:22</td><td>Step-13: Get Random value for last name</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:22</td><td>Step-14: Enter the planner first name as : Megha</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:22</td><td>Step-15: Enter planner last name as : Kharbanda</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:23</td><td>Step-16: Click Next button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:31</td><td>Step-17: Check budget Tracking  checkbox.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:32</td><td>Step-18: Check Session checkbox.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:34</td><td>Step-19: Click Next button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:40</td><td>Step-20: Click Next button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:47</td><td>Step-21: Click Finish</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:52:54</td><td>Step-22: Explicit Wait for sometime</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:01</td><td>Step-23: Verify the Event tab existence</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:53:05</td><td><H4 CLASS='pass'>PASS</H4>lnkEvents<BR> object is present.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:05</td><td>Step-24: Get the event  stub from the url and store it to global variable</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:05</td><td>Step-25: Query the database for the Event Record. SQL : select * from event where evt_stub='7fce511d-d04d-4aeb-bbed-99a5bda4efbb'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:05</td><td>Step-26: Verify the event title from DB as : SMM_Automated_Event_VC_BudgetItem_HyzgPuTa</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:53:05</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: smmautomatedeventvcbudgetitemhyzgputa<BR>Actual Value: smmautomatedeventvcbudgetitemhyzgputa</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:05</td><td>Step-27: verify Event status id as 1</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:53:05</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1<BR>Actual Value: 1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:05</td><td>Step-28: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:16</td><td>Step-29: Close All Browsers</td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 06:53:17</th><th><H2>BudgetItem_Create_Variable_EventSide_USD</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 06:53:17</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:25</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:26</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:28</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:29</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:30</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:37</td><td>Step-6: Get the event stub based on event title as 'SMM_Automated_VC_Event_BudgetItem_'.
+SQL: 
+SELECT top 1 * from event e INNER JOIN event_budget_version EBV ON e.evt_stub=ebv.evt_stub AND e.acct_id=ebv.acct_id and e.evt_title LIKE '%SMM_Automated_Event_VC_BudgetItem%' and e.acct_id=5840 ORDER BY e.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:37</td><td>Step-7: Navigate to Budget Summary page: https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetSummaryGrid?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:44</td><td>Step-8: Wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:45</td><td>Step-9: Click on Create Budget Item Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:59</td><td>Step-10: Get 5 char random string.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:59</td><td>Step-11: Enter the Budget Name as EventSide_VC_KYIQg</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:53:59</td><td>Step-12: Select Hong Kong Dollar from currency dropdown.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:00</td><td>Step-13: Wait for 3 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:01</td><td>Step-14: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:25</td><td>Step-15: Wait for 15 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:26</td><td>Step-16: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:27</td><td>Step-17: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:27</td><td>Step-18: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:27</td><td>Step-19: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:28</td><td>Step-20: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:29</td><td>Step-21: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:29</td><td>Step-22: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:30</td><td>Step-23: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:31</td><td>Step-24: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:32</td><td>Step-25: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:33</td><td>Step-26: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:34</td><td>Step-27: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:34</td><td>Step-28: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:35</td><td>Step-29: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:35</td><td>Step-30: Select Variable Cost as Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:36</td><td>Step-31: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:37</td><td>Step-32: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:38</td><td>Step-33: verify Existence of Save Button</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:54:38</td><td><H4 CLASS='pass'>PASS</H4>btnSave<BR> object is present.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:38</td><td>Step-34: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:40</td><td>Step-35: Wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:54:41</td><td>Step-36: Verify the Alert Message</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:55:00</td><td><H4 CLASS='pass'>PASS</H4>Expected Pattern: .*hasbeen.*<BR>Actual Value: EventSide_VC_KYIQghasbeencreated.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-37: Get the itemstub from URL</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-38: SQL to get details from EVENT_BUDGET_ITEM:
+SELECT * FROM EVENT_BUDGET_ITEM WHERE budget_item_stub='f4cddec2-d41e-459f-9bfe-ff179d4e7dfb'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-39: Verify eventStub as 7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB.</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:55:00</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7fce511dd04d4aebbbed99a5bda4efbb<BR>Actual Value: 7fce511dd04d4aebbbed99a5bda4efbb</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-40: Verify version stub as FB4ABD29-F677-4B1E-A88D-E911E9B7259D</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:55:00</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: fb4abd29f6774b1ea88de911e9b7259d<BR>Actual Value: fb4abd29f6774b1ea88de911e9b7259d</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-41: Verify name as EventSide_VC_KYIQg</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:55:00</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: eventsidevckyiqg<BR>Actual Value: eventsidevckyiqg</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-42: Verify currency type id as 6</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:55:00</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1<BR>Actual Value: 1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:00</td><td>Step-43: Execute the sQL Query:
+
+select total_amt from EVENT_BUDGET_ITEM_CURRENCY_TOTALS 
+where evt_stub='7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB' 
+and currency_id=1 and budget_item_stub='f4cddec2-d41e-459f-9bfe-ff179d4e7dfb' and budget_cost_type_id=1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:06</td><td>Step-44: Verify the value of total amount</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:55:06</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1325000000<BR>Actual Value: 1325000000</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:06</td><td>Step-45: Close all browsers</td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 06:55:08</th><th><H2>BudgetItem_Create_Variable_EventSide_GBP</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 06:55:08</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:12</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:13</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:14</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:14</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:15</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:21</td><td>Step-6: Get the event stub based on event title as 'Sel_SMM_BudgetItemEvent_DS_%'.
+SQL: 
+SELECT top 1 * from event e INNER JOIN event_budget_version EBV ON e.evt_stub=ebv.evt_stub AND e.acct_id=ebv.acct_id and e.evt_title LIKE '%SMM_Automated_Event_VC_BudgetItem%' and e.acct_id=5840 ORDER BY e.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:21</td><td>Step-7: Navigate to Budget Summary page: https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetSummaryGrid?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:33</td><td>Step-8: Click on Create Budget Item Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:50</td><td>Step-9: Get 5 char random string.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:50</td><td>Step-10: Select British Pound from currency dropdown.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:55:59</td><td>Step-11: Wait for 3 sec.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:00</td><td>Step-12: Enter the Name as EventSide_VC_GBP_IrdQD</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:02</td><td>Step-13: Select category as Travel</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:14</td><td>Step-14: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:26</td><td>Step-15: Enter 2 units for variable cost</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:27</td><td>Step-16: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:28</td><td>Step-17: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:29</td><td>Step-18: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:29</td><td>Step-19: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:30</td><td>Step-20: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:31</td><td>Step-21: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:31</td><td>Step-22: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:32</td><td>Step-23: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:33</td><td>Step-24: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:33</td><td>Step-25: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:34</td><td>Step-26: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:35</td><td>Step-27: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:35</td><td>Step-28: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:36</td><td>Step-29: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:37</td><td>Step-30: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:37</td><td>Step-31: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:38</td><td>Step-32: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:39</td><td>Step-33: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:39</td><td>Step-34: verify Existence of Save Button</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:56:40</td><td><H4 CLASS='pass'>PASS</H4>btnSave<BR> object is present.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:40</td><td>Step-35: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:40</td><td>Step-36: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:41</td><td>Step-37: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:42</td><td>Step-38: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:45</td><td>Step-39: Wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:46</td><td>Step-40: Verify the Alert Message</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:56:55</td><td><H4 CLASS='pass'>PASS</H4>Expected Pattern: .*hasbeen.*<BR>Actual Value: EventSide_VC_GBP_IrdQDhasbeencreated.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:55</td><td>Step-41: Get the itemstub from URL</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:55</td><td>Step-42: SQL to get details from EVENT_BUDGET_ITEM:
+SELECT * FROM EVENT_BUDGET_ITEM WHERE budget_item_stub='134289c5-5cfb-4908-aed6-a0990869fe96'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:55</td><td>Step-43: Verify eventStub as 7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB.</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:56:55</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7fce511dd04d4aebbbed99a5bda4efbb<BR>Actual Value: 7fce511dd04d4aebbbed99a5bda4efbb</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:55</td><td>Step-44: Execute the sQL Query:
+
+select total_amt from EVENT_BUDGET_ITEM_CURRENCY_TOTALS 
+where evt_stub='7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB' 
+and currency_id=1 and budget_item_stub='134289c5-5cfb-4908-aed6-a0990869fe96' and budget_cost_type_id=1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:57</td><td>Step-45: Verify the value of total amount</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:56:57</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1060000000<BR>Actual Value: 1060000000</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:56:57</td><td>Step-46: Close all browsers</td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 06:56:59</th><th><H2>BudgetItem_Create_Variable_EventSide_EURO</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 06:57:00</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:06</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:06</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:07</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:08</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:08</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:15</td><td>Step-6: Get the event stub based on event title as 'Sel_SMM_BudgetItemEvent_DS_%'.
+SQL: 
+SELECT top 1 * from event e INNER JOIN event_budget_version EBV ON e.evt_stub=ebv.evt_stub AND e.acct_id=ebv.acct_id and e.evt_title LIKE '%SMM_Automated_Event_VC_BudgetItem%' and e.acct_id=5840 ORDER BY e.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:15</td><td>Step-7: Navigate to Budget Summary page: https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetSummaryGrid?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:20</td><td>Step-8: Click on Create Budget Item Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:32</td><td>Step-9: Get 5 char random string.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:32</td><td>Step-10: Select British Pound from currency dropdown.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:38</td><td>Step-11: Wait for 3 sec.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:40</td><td>Step-12: Enter the Name as EventSide_VC_EURO_IyvPY</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:40</td><td>Step-13: Select category as Event Production</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:57:48</td><td>Step-14: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:00</td><td>Step-15: Enter the Budget Item date as 09/25/2015</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:00</td><td>Step-16: Wait for 5 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:02</td><td>Step-17: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:13</td><td>Step-18: Enter 5.5 units for variable cost</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:14</td><td>Step-19: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:15</td><td>Step-20: Enter 5.5 units for variable cost</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:15</td><td>Step-21: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:16</td><td>Step-22: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:17</td><td>Step-23: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:17</td><td>Step-24: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:18</td><td>Step-25: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:19</td><td>Step-26: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:20</td><td>Step-27: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:20</td><td>Step-28: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:21</td><td>Step-29: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:22</td><td>Step-30: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:23</td><td>Step-31: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:24</td><td>Step-32: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:24</td><td>Step-33: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:25</td><td>Step-34: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:26</td><td>Step-35: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:26</td><td>Step-36: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:27</td><td>Step-37: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:28</td><td>Step-38: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:28</td><td>Step-39: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:29</td><td>Step-40: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:30</td><td>Step-41: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:30</td><td>Step-42: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:31</td><td>Step-43: Input 500 as Cost-Actual</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:31</td><td>Step-44: Select Variable Cost for Cost Type</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:32</td><td>Step-45: wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:33</td><td>Step-46: Input 1000 as Cost-Budgeted</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:33</td><td>Step-47: verify Existence of Save Button</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:58:33</td><td><H4 CLASS='pass'>PASS</H4>btnSave<BR> object is present.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:33</td><td>Step-48: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:36</td><td>Step-49: Wait for 10seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:37</td><td>Step-50: Verify the Alert Message</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:58:48</td><td><H4 CLASS='pass'>PASS</H4>Expected Pattern: .*hasbeen.*<BR>Actual Value: EventSide_VC_EURO_IyvPYhasbeencreated.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:48</td><td>Step-51: Get the itemstub from URL</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:48</td><td>Step-52: SQL to get details from EVENT_BUDGET_ITEM:
+SELECT * FROM EVENT_BUDGET_ITEM WHERE budget_item_stub='f82c4548-7852-4d8c-b84e-0bfa58114718'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:48</td><td>Step-53: Verify eventStub as 7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB.</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:58:48</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7fce511dd04d4aebbbed99a5bda4efbb<BR>Actual Value: 7fce511dd04d4aebbbed99a5bda4efbb</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:48</td><td>Step-54: Execute the sQL Query:
+
+select total_amt from EVENT_BUDGET_ITEM_CURRENCY_TOTALS 
+where evt_stub='7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB' 
+and currency_id=1 and budget_item_stub='f82c4548-7852-4d8c-b84e-0bfa58114718' and budget_cost_type_id=1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:51</td><td>Step-55: Verify the value of total amount</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 06:58:51</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1457500000<BR>Actual Value: 1457500000</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:58:51</td><td>Step-56: Close all browsers</td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 06:58:53</th><th><H2>BudgetItem_Create_Variable_EventSide_INR</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 06:58:53</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:00</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:01</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:02</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:03</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:03</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:10</td><td>Step-6: Get the event stub based on event title as 'Sel_SMM_BudgetItemEvent_DS_%'.
+SQL: 
+SELECT top 1 * from event e INNER JOIN event_budget_version EBV ON e.evt_stub=ebv.evt_stub AND e.acct_id=ebv.acct_id and e.evt_title LIKE '%SMM_Automated_Event_VC_BudgetItem%' and e.acct_id=5840 ORDER BY e.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:10</td><td>Step-7: Navigate to Budget Summary page: https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetSummaryGrid?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:20</td><td>Step-8: Click on Create Budget Item Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:35</td><td>Step-9: Get 5 char random string.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 06:59:35</td><td>Step-10: Select British Pound from currency dropdown.</td>
+</tr>
+<tr class='error'>
+<td>03/23/16 06:59:52</td><td><span style='float:left;'>Test Case Failed: Cannot locate element with text: Indian Rupee
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'HQ-GRID-006', ip: '10.10.1.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown</span><span style='float:right;padding-left:10px;'><a href = 'file://///cvent.net\datax\hq\QTP\SeleniumRegression\Silo132\RegressionResults\03_23_2016_03_37_51_AM\screenshot_1458730792434.png'>Screenshot:<br><img src='file://///cvent.net\datax\hq\QTP\SeleniumRegression\Silo132\RegressionResults\03_23_2016_03_37_51_AM\screenshot_1458730792434.png'width = '100' border='1'></a></span></td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 06:59:54</th><th><H2>BudgetItem_Edit</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 06:59:54</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:01</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:02</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:03</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:04</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:04</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:13</td><td>Step-6: Get the event stub based on event title as 'Sel_SMM_BudgetItemEvent_DS_%'.
+SQL: 
+SELECT top 1 e.evt_stub,ebv.budget_version_stub FROM EVENT e INNER JOIN EVENT_BUDGET_VERSION ebv ON e.acct_id=ebv.acct_id and e.evt_stub=ebv.evt_stub and e.evt_title=ebv.budget_version_name where e.evt_title like 'SMM_Automated_Event_VC_BudgetItem_%' and e.acct_id=5840 order by e.created_date desc</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:13</td><td>Step-7: Perform the SQL Query:
+
+
+
+ SELECT top 1 * from EVENT e inner JOIN EVENT_BUDGET_ITEM ebi 
+ on e.acct_id=ebi.acct_id AND e.evt_stub=ebi.evt_stub and e.acct_id=5840 
+ and e.evt_title LIKE 'SMM_Automated_Event_VC_BudgetItem%' AND ebi.currency_id=1 
+ ORDER BY ebi.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:13</td><td>Step-8: Execute the sQL Query:
+SELECT budget_view_stub from BUDGET_VIEW where acct_id=1 and budget_view_name LIKE '%Budget%'  </td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:13</td><td>Step-9: Navigate to:
+https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetItemTaxDetails?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&itemstub=F4CDDEC2-D41E-459F-9BFE-FF179D4E7DFB&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D&sourcePage=BudgetSummaryGrid&budgetviewstub=570CC154-B27B-4917-A2BE-85C927DA5FD5</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:22</td><td>Step-10: Click on Edit button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:33</td><td>Step-11: Enter the Name as  EventSide_VC_KYIQg_Edited</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:39</td><td>Step-12: Click on Delete button to Delete the Tax of Budget Item</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:42</td><td>Step-13: Wait for 3 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:43</td><td>Step-14: Click on Delete button to Delete the Tax of Budget Item</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:46</td><td>Step-15: Wait for 3 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:47</td><td>Step-16: Click on Delete button to Delete the Tax of Budget Item</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:49</td><td>Step-17: Wait for 3 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:50</td><td>Step-18: Click on Delete button to Delete the Tax of Budget Item</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:52</td><td>Step-19: Wait for 3 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:53</td><td>Step-20: Click on Delete button to Delete the Tax of Budget Item</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:56</td><td>Step-21: Wait for 3 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:00:57</td><td>Step-22: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:00</td><td>Step-23: Wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:01</td><td>Step-24: Verify the Alert Message</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:01:14</td><td><H4 CLASS='pass'>PASS</H4>Expected Pattern: .*hasbeen.*<BR>Actual Value: EventSide_VC_KYIQg_Editedhasbeensaved.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:14</td><td>Step-25: Get the itemstub from URL</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:14</td><td>Step-26: SQL to get details from EVENT_BUDGET_ITEM:
+SELECT * FROM EVENT_BUDGET_ITEM WHERE budget_item_stub='f4cddec2-d41e-459f-9bfe-ff179d4e7dfb'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:14</td><td>Step-27: Verify eventStub as 7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB.</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:01:14</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7fce511dd04d4aebbbed99a5bda4efbb<BR>Actual Value: 7fce511dd04d4aebbbed99a5bda4efbb</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:14</td><td>Step-28: Execute the sQL Query:
+
+select total_amt from EVENT_BUDGET_ITEM_CURRENCY_TOTALS 
+where evt_stub='7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB' 
+and currency_id=1 and budget_item_stub='f4cddec2-d41e-459f-9bfe-ff179d4e7dfb' and budget_cost_type_id=1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:21</td><td>Step-29: Verify the value of total amount</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:01:21</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1005000000<BR>Actual Value: 1005000000</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:21</td><td>Step-30: Close all browsers</td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 07:01:23</th><th><H2>Budget_Item_Duplicate</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 07:01:23</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:27</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:28</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:29</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:30</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:31</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:41</td><td>Step-6: Get the event stub based on event title as 'Sel_SMM_BudgetItemEvent_DS_%'.
+SQL: 
+SELECT top 1 e.evt_stub,ebv.budget_version_stub FROM EVENT e INNER JOIN EVENT_BUDGET_VERSION ebv ON e.acct_id=ebv.acct_id and e.evt_stub=ebv.evt_stub and e.evt_title=ebv.budget_version_name where e.evt_title like 'SMM_Automated_Event_VC_BudgetItem_%' and e.acct_id=5840 order by e.created_date desc</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:41</td><td>Step-7: Perform the SQL Query:
+
+
+
+
+
+ SELECT top 1 * from EVENT e inner JOIN EVENT_BUDGET_ITEM ebi 
+ on e.acct_id=ebi.acct_id AND e.evt_stub=ebi.evt_stub and e.acct_id=5840 
+ and e.evt_title LIKE 'SMM_Automated_Event_VC_BudgetItem%' AND ebi.currency_id=1 and ebi.budget_item_name LIKE '%Edited%' 
+ ORDER BY ebi.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:41</td><td>Step-8: Execute the sQL Query:
+SELECT budget_view_stub from BUDGET_VIEW where acct_id=1 and budget_view_name LIKE '%Budget%'  </td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:42</td><td>Step-9: Navigate to:
+https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetItemTaxDetails?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&itemstub=F4CDDEC2-D41E-459F-9BFE-FF179D4E7DFB&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D&sourcePage=BudgetSummaryGrid&budgetviewstub=570CC154-B27B-4917-A2BE-85C927DA5FD5</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:49</td><td>Step-10: Wait for 15 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:01:50</td><td>Step-11: Click on Duplicate button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:06</td><td>Step-12: Wait for 5 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:07</td><td>Step-13: Click on Save Button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:09</td><td>Step-14: Wait for 10 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:10</td><td>Step-15: Verify the Alert Message</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:02:22</td><td><H4 CLASS='pass'>PASS</H4>Expected Pattern: .*hasbeen.*<BR>Actual Value: CopyofEventSide_VC_KYIQg_Editedhasbeencreated.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:22</td><td>Step-16: Get the itemstub from URL</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:22</td><td>Step-17: SQL to get details from EVENT_BUDGET_ITEM:
+SELECT * FROM EVENT_BUDGET_ITEM WHERE budget_item_stub='8c30bf8b-c214-4b3f-b6ca-35c8acbea0c9'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:22</td><td>Step-18: Verify eventStub as 7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB.</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:02:22</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 7fce511dd04d4aebbbed99a5bda4efbb<BR>Actual Value: 7fce511dd04d4aebbbed99a5bda4efbb</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:22</td><td>Step-19: Execute the sQL Query:
+
+select total_amt from EVENT_BUDGET_ITEM_CURRENCY_TOTALS 
+where evt_stub='7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB' 
+and currency_id=1 and budget_item_stub='8c30bf8b-c214-4b3f-b6ca-35c8acbea0c9' and budget_cost_type_id=1</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:25</td><td>Step-20: Verify the value of total amount</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:02:25</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 1005000000<BR>Actual Value: 1005000000</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:25</td><td>Step-21: Close all browsers</td>
+</tr>
+ 
+ 
+<thead><tr>
+<th>03/23/16 07:02:28</th><th><H2>Budget_Item_Delete</H2></th>
+</tr></thead>
+<tr class='info'>
+<td>03/23/16 07:02:28</td><td><H3>Iteration: 1</H3></td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:32</td><td>Step-1: Navigate to https://silo132-app.a1.cvent.com/Subscribers/Login.aspx</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:32</td><td>Step-2: Enter Account name automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:33</td><td>Step-3: Enter Username automation</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:34</td><td>Step-4: Enter Password.123qweasd</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:34</td><td>Step-5: Click login button</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:42</td><td>Step-6: Get the event stub based on event title as 'Sel_SMM_BudgetItemEvent_DS_%'.
+SQL: 
+SELECT top 1 e.evt_stub,ebv.budget_version_stub FROM EVENT e INNER JOIN EVENT_BUDGET_VERSION ebv ON e.acct_id=ebv.acct_id and e.evt_stub=ebv.evt_stub and e.evt_title=ebv.budget_version_name where e.evt_title like 'SMM_Automated_Event_VC_BudgetItem_%' and e.acct_id=5840 order by e.created_date desc</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:42</td><td>Step-7: Perform the SQL Query:
+
+
+ SELECT top 1 * from EVENT e inner JOIN EVENT_BUDGET_ITEM ebi 
+on e.acct_id=ebi.acct_id AND e.evt_stub=ebi.evt_stub and e.acct_id=5840 and e.evt_title LIKE 'SMM_Automated_Event_VC_BudgetItem%' 
+and e.evt_stub='7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB'
+AND ebi.currency_id=1 and ebi.budget_item_name like '%Copy%' ORDER BY e.created_date DESC</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:42</td><td>Step-8: Execute the sQL Query:
+SELECT budget_view_stub from BUDGET_VIEW where acct_id=1 and budget_view_name LIKE '%Budget%'  </td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:43</td><td>Step-9: Navigate to:
+https://silo132-app.a1.cvent.com/Subscribers/Events2/Details/BudgetItemTaxDetails?evtstub=7FCE511D-D04D-4AEB-BBED-99A5BDA4EFBB&itemstub=8C30BF8B-C214-4B3F-B6CA-35C8ACBEA0C9&versionstub=FB4ABD29-F677-4B1E-A88D-E911E9B7259D&sourcePage=BudgetSummaryGrid&budgetviewstub=570CC154-B27B-4917-A2BE-85C927DA5FD5</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:02:47</td><td>Step-10: Wait for 15 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:02</td><td>Step-11: Get the itemstub from URL</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:02</td><td>Step-12: Click on Delete button to delete the budget item</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:05</td><td>Step-13: Wait for 5 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:06</td><td>Step-14: Click on Confirm</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:17</td><td>Step-15: Wait for 20 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:18</td><td>Step-16: Verify the Alert Message</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:03:18</td><td><H4 CLASS='pass'>PASS</H4>Expected Pattern: .*deleted.*<BR>Actual Value: Theselecteditemshavebeendeleted.</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:18</td><td>Step-17: SQL to get details from EVENT_BUDGET_ITEM:
+SELECT * FROM EVENT_BUDGET_ITEM WHERE budget_item_stub='8C30BF8B-C214-4B3F-B6CA-35C8ACBEA0C9'</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:18</td><td>Step-18: Verify that there should be no record corresponding to this budget item since it is deleted now</td>
+</tr>
+<tr class='pass'>
+<td>03/23/16 07:03:18</td><td><H4 CLASS='pass'>PASS</H4>Expected Value: 0<BR>Actual Value: 0</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:18</td><td>Step-19: Wait for 2 seconds</td>
+</tr>
+<tr class='info'>
+<td>03/23/16 07:03:20</td><td>Step-20: Close all browsers</td>
+</tr>
+</table>
+</body>
+</html>
